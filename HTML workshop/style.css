@@ -1,0 +1,14 @@
+body {
+  background-image: url(/INTRO-HTML/background-bg.jpg);
+  padding: 10px;
+}
+.white-text {
+  color: honeydew;
+}
+.head_1 {
+  font-size: 50 px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.image-01 {
+  margin: 2px;
+}
