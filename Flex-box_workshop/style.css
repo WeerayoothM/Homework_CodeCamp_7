@@ -1,0 +1,108 @@
+/* เขียน CSS ที่นี่ */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.header-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: darkcyan;
+
+  flex-grow: 0;
+}
+.site-container {
+  display: flex;
+  flex: 1;
+  padding: 1px;
+}
+.navigation-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ff7f50;
+  margin: 1px;
+  font-size: 40px;
+  flex: 0 0 300px;
+}
+.navigation-text {
+  font-size: 40px;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff7f50;
+  margin: 1px;
+  flex-grow: 1;
+}
+.advertisement-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff7f50;
+  margin: 1px;
+  padding: 2px;
+  flex: 0 0 500px;
+}
+.header-text {
+  color: black;
+  font-size: 30px;
+}
+.content-text {
+  display: block;
+  font-size: 30px;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: khaki;
+  flex-grow: 0;
+  height: 15vh;
+}
+.footer-text {
+  font-size: 30px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0px;
+  font-size: 25px;
+  height: 50px;
+  background-color: aliceblue;
+}
+.navigation-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  magin: 0px;
+}
+.test {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.advertisement-video-1 {
+  margin: 10px;
+}
+.advertisement-video-2 {
+  margin: 10px;
+}
