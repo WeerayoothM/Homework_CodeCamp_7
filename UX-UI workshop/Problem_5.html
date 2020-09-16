@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GotoFigma</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+      }
+      h1 {
+        color: crimson;
+      }
+      h2 {
+        display: inline !important;
+      }
+      .btn {
+        display: inline !important;
+      }
+      .btn-box {
+        text-align: center;
+        width: 400px;
+      }
+    </style>
+    <script>
+      function gotolink() {
+        open(
+          "https://www.figma.com/proto/6aTekhS5VyCijSAvKDBnaP/1st.-Project?node-id=58%3A3&scaling=min-zoom"
+        );
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Low-Fidelity Wireframe</h1>
+      <div class="btn-box">
+        <h2>Click --></h2>
+        <button class="btn btn-primary" onclick="gotolink();">
+          Go to Figma
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
